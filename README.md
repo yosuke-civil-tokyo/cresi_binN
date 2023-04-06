@@ -6,7 +6,7 @@ We assume that data created on this repository is utilized in other projects suc
 ## How to
 Mainly the required process is similar to the original repository (see 'README_cresi.md), but docker environment, main code and function include some changes, so follow the procedure below.  
 1. Make environment  
-    After ```git clone``` this repository, put your RGB satellite image (.tif file) on 'test_imagery/dar/PS-MS'. Now you can run  
+    After ```git clone``` this repository, put your RGB satellite image (.tif file) on 'test_imagery/dar/PS-MS' and unzip the model weight file in 'results/aws_weights/'. Now you can run  
     ```
     docker build -t cresi ./
 
